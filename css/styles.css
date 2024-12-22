@@ -1,0 +1,102 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    background: linear-gradient(45deg, red, blue);
+    background-size: 400% 400%;
+    animation: colorChange 10s infinite;
+}
+
+@keyframes colorChange {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+header {
+    background: linear-gradient(45deg, #d10000, #001790);
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: #333;
+     color: white;
+     padding: 10px 20px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     z-index: 1000;
+}
+header .logo-img{
+  text-align: center;
+  padding: 0;
+  border: 0;
+}
+.options {
+    margin: 20px auto;
+    width: 90%;
+    max-width: 400px;
+}
+
+.option {
+    background-color: #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding: 20px; display: block;
+    text-decoration: none; 
+    color: inherit;
+}
+
+.option:hover {
+    background-color: #bbb;
+}
+
+footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      box-shadow: 0 -2px 5px #888686;
+    }
+h3{
+  color: #fff;
+  margin-top: 110px;
+}
+.namper{
+  font-weight: bold;
+  animation: changeColor 3s infinite;
+}
+@keyframes changeColor {
+            0% {
+                color: red;
+            }
+            50% {
+                color: blue;
+            }
+            100% {
+                color: green;
+            }
+        }
+  .option{
+    text-decoration: none;
+    color: inherit;
+  }
